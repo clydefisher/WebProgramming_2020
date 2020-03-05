@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;  
+}
+.container {
+    max-width: 700px;
+    margin: 0px auto;
+}
+.header{ 
+    background-color: green;
+    height: 220px;
+    text-align: center; 
+    line-height: 200px;
+    font-family: 'Times New Roman';
+    padding: 20px;
+    
+}
+
+.indentedheader{
+    margin: 50px;
+}
+
+.indentedheader h2{
+  text-align: left;  
+  height: 20px;
+  font-size: 20px;
+  font-family: 'times new roman' ;
+}
+
+.bottomheader{ 
+    text-align: center
+    
+}
+
+.bottomheader a
+{ 
+    background-color: lightgrey;
+    border: 15px solid green;
+    padding: 30x;
+    font-size: 12px;
+    margin: 25px 50px 75px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+}
