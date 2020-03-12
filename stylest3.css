@@ -1,0 +1,18 @@
+.list-box  { 
+    background-color: purple;
+    font-size: 0; /* hid ethe white space between two divs*/
+}
+
+.date-box {
+display: inline-block;
+width: 30%;
+font-size: 16px;
+text-align: center;
+Padding; 40px, 0px;     
+}
+
+ .list-box .description { 
+display: inline-block;
+width: 70%;
+font-size: 16px;
+}

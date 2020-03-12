@@ -1,68 +1,81 @@
 html, body {
-    margin: 8;  
-    background-color: aliceblue; 
+    margin: 20;  
+    background-color: white
     border: 20px;
-    border-color: aliceblue; 
+    background-color: white
     border-radius: 30px;  
 }
 .container {
     max-width: 700px;
-    margin: 0px auto;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #fff8dc;
+    padding: 10px;
+    background-color: rgb(142,186,62);
 }
 .header{ 
-    background-color: green;
+    
+    background-color: rgb(142,186,62);  
     height: 220px;
+    font-family: 'Spartan', sans-serif;
     text-align: center; 
     line-height: 200px;
-    font-family: 'Times New Roman';
     padding: 20px;
-    
 }
 
 .indentedheader{
-    margin: 50px;
+    padding: 25px;
+    background-color: white;
+    font-family: 'Spartan', sans-serif;
 }
 
 .indentedheader h2{
   text-align: left;  
   height: 20px;
   font-size: 20px;
-  font-family: 'times new roman' ;
+  font-family: 'Spartan', sans-serif;
 }
 
 .bottomheader{ 
     text-align: center
+
     
 }
-
-.bottomheader a
-{ 
-    background-color: lightgrey;
-    border: 15px solid green;
+.bottomheader a{ 
+    background-color:rgb(142,186,62);  
+    font-family: 'Spartan', sans-serif;
     padding: 30x;
-    font-size: 12px;
-    margin: 25px 50px 75px;
+    border: 15px solid rgb(142,186,62);  
+    padding: 30x;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 50px 0px;
     border-radius: 5px;
     text-align: center;
     display: inline-block;
     padding: 15px 25px;
-
+    text-decoration: none
 }
+
+.secondparagraph{ 
+    font-family: 'Spartan', sans-serif;
+    text-align: left;  
+    font-size: 20px;
+  }
+
+  .spacer {
+    padding: 15px 0px;
+    text-align: center;
 
 .footer {
+    background-color: #dfdfdf;
+    font-family: 'Spartan', sans-serif;
     text-align: center;
-    border-radius: 20cm;
-    padding: 20px, 0px, 0px, 20px;
-    border: 20px, 0px, 0px, 20px;    
-    background-color: palegreen 
-    
-    
-
+    padding: 20px 
 }
 
-.footer a 
-{
-    font-size: 20px;
+.footer a {
     font-weight: 600;
-    text-decoration: royalblue
+    text-decoration: none;
+    color: black;
 }
