@@ -34,6 +34,7 @@ html, body {
   height: 20px;
   font-size: 20px;
   font-family: 'Spartan', sans-serif;
+  font-weight: bolder;
 }
 
 .bottomheader{ 
@@ -49,7 +50,7 @@ html, body {
     padding: 30x;
     font-weight: bold;
     font-size: 20px;
-    margin: 0px 50px 0px;
+    margin: 0px 50px 50px;
     border-radius: 5px;
     text-align: center;
     display: inline-block;
@@ -57,25 +58,58 @@ html, body {
     text-decoration: none
 }
 
-.secondparagraph{ 
+
+
+
+
+.secondparagraph a{ 
     font-family: 'Spartan', sans-serif;
     text-align: left;  
-    font-size: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    
   }
 
-  .spacer {
-    padding: 15px 0px;
-    text-align: center;
-
-.footer {
-    background-color: #dfdfdf;
+.secondparagrapha1{
+    color:rgb(142,186,62);
     font-family: 'Spartan', sans-serif;
-    text-align: center;
-    padding: 20px 
+    text-align: left;  
+    font-size: 15px;
+    border-radius: 20px;
+    text-decoration: none
 }
 
-.footer a {
-    font-weight: 600;
-    text-decoration: none;
-    color: black;
+
+.tag {
+    margin: 20px 10px 10px 20px;
+    font-family: 'Spartan', sans-serif;
+    font-style: italic;
+    
+    
 }
+}
+
+  .spacer{
+    padding: 
+    text-align: center;
+    background-color: grey;
+
+  }
+
+  .footer{ 
+    margin: 20px
+    border: 5px lightgray;
+    padding: 10px;
+    background-color: lightgray;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+  }
+
+  .footer a1{
+      font-weight: bolder;
+
+  }
+  
+  .footer a3 {
+      font-weight: bolder;
+     }
