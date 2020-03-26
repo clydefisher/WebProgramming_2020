@@ -1,16 +1,79 @@
 html body {
-    background-color: rgb(142,186,62); 
-}
-
-.container {
-    display: flex;
-    height: 100vh;
+    background-color: rgb(114,193,88); 
     align-items: center;
+    display: inline-block;
     justify-content: center;
+    vertical-align: middle;
+    display: flex;
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    
+   
+}
+.container1 {
+    background-color: white;
+    display: flex;
+    width: 200px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    height: 150px;
 }
 
-.box {
-    width: 420px;
-    height: 500px;
-    background-color: lightcoral
+form {
+    border: 3px solid white;
+    background-color: white;
+    display: flex;
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    height: 250px;
+    font-family: 'Spartan', sans-serif;
+  }
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background-color: rgb(242,242,242);
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+  }
+  
+ 
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Spartan', sans-serif;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+.link {
+      font-family: 'Spartan', sans-serif;
+      text-align: center;
+      text-decoration: none;
+      padding: 20px;
+  }
+.link a{ 
+    text-decoration: none;
 }
