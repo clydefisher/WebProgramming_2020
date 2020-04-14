@@ -7,7 +7,7 @@ using System;
         class Program 
         {
 
-            static void Main(strin[]args)
+            static void Main(string[1]args)
             {
                 // declaring array
                 int[] numbersa = new int[5];
@@ -19,7 +19,7 @@ using System;
                 nameof[4] = Shay;
 
                 int index = 0; 
-                while (index < numbersa,length)
+                while (index < numbers.length);
                     System.Console.WriteLine("Hello" nameof[<5]);  
             }
         }
